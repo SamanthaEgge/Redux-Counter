@@ -3,9 +3,6 @@ import { connect } from 'react-redux';
 import { increment, decrement } from '../actions';
 
 class Counter extends Component {
-    state = {
-        newCount: ''
-    }
 
     incrementIfOdd = () => {
         // Stretch Problem: Implement an increment function that
